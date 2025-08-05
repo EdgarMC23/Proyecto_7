@@ -1,4 +1,4 @@
  pandas
  plotly_express
  streamlit
- 
+ protobuf==3.20.*
