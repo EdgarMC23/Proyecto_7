@@ -4,7 +4,8 @@ import streamlit as st
 
 car_data = pd.read_csv('vehicles_us.csv')  # leer los datos
 st.header("Anuncios de venta de coches")  # Encabezado
-hist_button = st.button('Construir histograma')  # Botón de histograma
+# Botón de histograma
+hist_button = st.button('Construir histograma')
 # Botón de grafico de dispersion
 disp_button = st.button("Construir gráfico de dispersión")
 
